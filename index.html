@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi, I'm Nicholas</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Press+Start+2P&family=Roboto:wght@700&family=Rubik&family=Sacramento&display=swap" rel="stylesheet"><link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+<script src="./app.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar-container">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="./Images/video.mp4">
+        </video>
+        <div class="logo"><img src="./images/logob.png" alt="logo" class="logob"></div>
+        <div class="nav-links">
+            <a href="#about" class="links">About</a>
+            <a href="#skillss" class="links">Skills</a>
+            <a href="#projectss" class="links">Projects</a>
+        </div>
+    </div>
+    <!-- Hero -->
+    <div class="hero-container">
+        <h3>Hi, I'm</h3>
+        <h1>Nick<span class="blink"><div class="line"></div></span></h1>
+        <h2><span class="front-end-text">Front-End</span> Web Developer</h2>
+    </div>
+    <!-- About -->
+    <section class="about-me">
+        <div class="about-me-content">
+          <img src="./Images/profile-pic2.png" alt="My Photo">
+          <div class="about-me-text" id="about">
+            <h2>About <span style="color: rgb(218, 95, 1);">Me</span></h2>
+            <p>Hi, my name is Nick and I am a Web Developer. I specialize in front-end development and have a passion for creating beautiful, responsive websites.</p>
+            <p>When I'm not coding, you can find me reading, gaming or keeping up to date with the latest and greatest in the world of tech.</p>
+            <div style="display: flex;">
+                <i class='bx bx-user' style="margin-right: 3rem;"></i>
+                <p style="font-weight: bold;">Nick Wisdom</p>
+            </div>
+            <div style="display: flex;">
+                <i class='bx bx-phone' style="margin-right: 3rem;"></i>
+                <p style="font-weight: bold;">(203) 361-2983</p>
+            </div>
+            <div style="display: flex;">
+                <i class='bx bx-envelope' style="margin-right: 3rem;"></i>
+                <p style="font-weight: bold;">nicholas.a.wisdom@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="skills_section" id="skillss">
+        <div class="skills_head">
+            <h2>My <span>Skills</span></h2>
+            <p>Here is my experience with the following technologies!</p>
+        </div>
+
+        <div class="skills_main">
+            <div class="skill_bar">
+                <div class="info">
+                    <p>HTML</p>
+                    <P>90%</P>
+                </div>
+                <div class="bar">
+                    <span class="html"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>CSS</p>
+                    <P>80%</P>
+                </div>
+                <div class="bar">
+                    <span class="css"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>SASS</p>
+                    <P>70%</P>
+                </div>
+                <div class="bar">
+                    <span class="sass"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>JavaScript</p>
+                    <P>60%</P>
+                </div>
+                <div class="bar">
+                    <span class="js"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>React</p>
+                    <P>30%</P>
+                </div>
+                <div class="bar">
+                    <span class="react"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>Git</p>
+                    <P>80%</P>
+                </div>
+                <div class="bar">
+                    <span class="git"></span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <h2 class="projects-heading">Projects</h2>
+    <div class="projects-container">
+        <div class="rps-container">
+            <h2 class="projects-title" id="projectss">Rock, Paper, Scissors Game</h2>
+            <img src="./Images/rock-paper-scissors.png" alt="" class="rps-img">
+            <div class="project-buttons">
+                <a href="https://github.com/nwisdom10/rock-paper-scissors-game" class="github-btn">
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo">
+                    GitHub
+                </a>
+                <a href="https://nwisdom10.github.io/rock-paper-scissors-game/" class="live-code-btn">
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="JavaScript Logo">
+                    Live Code
+                </a>
+            </div>
+        </div>
+        <div class="eas-container">
+            <h2 class="projects-title">Etch a Sketch</h2>
+            <img src="./Images/etch-a-sketch.png" alt="" class="eas-img">
+            <p></p>
+            <div class="project-buttons">
+                <a href="https://github.com/nwisdom10/etch-a-sketch" class="github-btn">
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo">
+                    GitHub
+                </a>
+                <a href="https://nwisdom10.github.io/etch-a-sketch/" class="live-code-btn">
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="JavaScript Logo">
+                    Live Code
+                </a>
+            </div>
+        </div>
+    </div> 
+    <!-- footer -->
+    <div class="links-container">
+        <a href="https://github.com/nwisdom10"><img src="./Images/github.png" alt="" class="github-logo"></i></a>
+        <a href="https://www.linkedin.com/in/wisdomn2/"><img src="./Images/linkedin.png" alt="" class="linkedin-logo"></i></a>
+    </div>
+</body>
