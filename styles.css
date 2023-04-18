@@ -67,6 +67,13 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #333;
+}
+
+@media (max-width: 500px) {
+    .hero-container{
+        height: 30rem;
+    }
 }
 
 .links-container{
@@ -93,30 +100,6 @@ h3{
     color: rgb(253, 88, 88);
 }
 
-
-
-.download-cv:hover{
-    cursor: pointer;
-    background-color: #f66f30;
-}
-
-video {
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 1000px;
-  width: 100%;
-
-}
-
-.back-video{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-}
-
 .line{
     margin-left: 10px;
     margin-top: 35px;
@@ -133,6 +116,7 @@ flex-direction: column;
 align-items: center;
 text-align: center;
 padding: 20px 0;
+
 }
 
 .about-me h2 {
@@ -140,13 +124,22 @@ margin-bottom: 20px;
 font-family: 'Open Sans',sans-serif;
 }
 
+
+
 .about-me-content {
 display: flex;
-flex-direction: column;
+flex-direction: row;
 align-items: center;
-justify-content: space-between;
-max-width: 500px;
+justify-content: center;
+max-width: 900px;
 width: 100%;
+}
+
+@media (max-width: 900px){
+    .about-me-content{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .about-me-content img {
@@ -320,8 +313,24 @@ color: rgb(54, 54, 54);
     padding: 10px;
     box-shadow: 5px 10px #e74d06;
     margin-bottom: 30px;
+
     
 }
+
+@media (max-width: 730px) {
+    .eas-img{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    .eas-img{
+        width: 300px;
+        height: 200px;
+    }
+}
+
 
 .rps-img{
     width: 700px;
@@ -331,6 +340,21 @@ color: rgb(54, 54, 54);
     box-shadow: 5px 10px #e74d06;
     margin-bottom: 30px;
     
+}
+
+@media (max-width: 730px) {
+    .rps-img{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    .rps-img{
+        margin-left: 20px;
+        width: 300px;
+        height: 200px;
+    }
 }
 
 .projects-heading{
